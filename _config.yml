@@ -1,6 +1,6 @@
 # Site settings
-title: "gjuniioor"
-bye_message: "Thx!"
+title: "Reversing.AC"
+bye_message: "~"
 baseurl: "/"
 url: "https://cpz.github.io"
 disqus: 0og
@@ -14,9 +14,9 @@ source_code:
     server: "github.com"
     nick: "cpz"
 blog:
-    server: "wordpress.com"
-    nick: "gjuniioor"
-fingerprint_key: "5E12 9ABC C2A9 564B C048  2DF9 D327 0D10 BC71 CF75"
+    server: ""
+    nick: ""
+fingerprint_key: ""
 
 # Build settings
 markdown: kramdown
