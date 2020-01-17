@@ -1,7 +1,7 @@
 # Site settings
 title: "Reversing.AC"
 bye_message: "~"
-baseurl: "/"
+baseurl: "https://cpz.github.io"
 url: "https://cpz.github.io"
 disqus: 0og
 
