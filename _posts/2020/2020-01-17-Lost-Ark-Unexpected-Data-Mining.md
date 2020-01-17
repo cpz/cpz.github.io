@@ -36,7 +36,7 @@ So, I've started to reverse and trying to find their category or something what 
 
 And found interesting things for upcoming update.
 
-There a data in the game which is responsible for distinguish players [class division \[1\]][1] and their sub-class.
+There a data in the game which is responsible for players [class division \[1\]][1] and their sub-class.
 
 (This enum is deprecated for some reason, [real enum \[2\]][2] is a lot of bigger and contains pre-defined types for future new sub-classes like: PLAYER_CLASS_SPECIALIST600     = 600)
 
