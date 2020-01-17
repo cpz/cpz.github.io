@@ -25,7 +25,7 @@ Its how they looks in the game ():
 So, I've started to reverse and trying to find their category or something what can help me.
 And found interesting things for upcoming update.
 There a data in the game which is responsible for disguise players [class division \[1\]][1] and their sub-class.
-(This enum is deprecated for some reason, [real enum \[0\]][0] is a lot of bigger and contains pre-defined types for future new sub-classes like: PLAYER_CLASS_SPECIALIST600     = 600)
+(This enum is deprecated for some reason, [real enum \[2\]][2] is a lot of bigger and contains pre-defined types for future new sub-classes like: PLAYER_CLASS_SPECIALIST600     = 600)
 
 ~~~
 // Enum EFGame.EFConst.PlayerClassDeprecated
@@ -105,5 +105,5 @@ Basically, I don't know how to end this post but there we go. Its how I got un-r
 [2]: TheFeckless (Tutorial on reversing Unreal Engine)
 ~~~
 
-[0]: {{ site.url }}images/screenshots/Screenshot_2.jpg
+[2]: {{ site.url }}images/screenshots/Screenshot_2.jpg
 [1]: {{ site.url }}images/screenshots/Screenshot_1.jpg
