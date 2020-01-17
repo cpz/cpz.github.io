@@ -15,7 +15,7 @@ tags:
 
 Yay, its mine first post and its first time I'm reversing or even hacking at Unreal Engine.
 
-Today, I’ll talk little bit about how game reversing leaded me to new upcoming recently announced classes (Notice: They only announced, so there no actually information about them).
+Today, I’ll talk little bit about how game reversing leaded me to new upcoming recently announced classes. (Notice: They only announced, so there no actually information about them).
 
 Right now I’m working at Bot for Lost Ark. Main reason is get advantage in PvP and don’t waste time on routine job like getting resources for healing potions.
 
