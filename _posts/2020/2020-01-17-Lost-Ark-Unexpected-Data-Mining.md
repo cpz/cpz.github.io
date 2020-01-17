@@ -110,7 +110,13 @@ PLAYER_CLASS_DEMONIC           = 403,
 PLAYER_CLASS_REAPER            = 404,
 ~~~
 
-Basically, I don't know how to end this post but there we go. Its how I got un-released data from game engine.
+[Original post \[3\]][3] were made by me on UC but I decided to post it there too with describing how I find these things.
+
+I know its nothing "big" but it was cool find something like this.
+
+Well, I don't know how to end this post but there we go. Its how I got un-released data from game engine.
+
+And Thanks for reading!
 
 ## Credits
 
@@ -120,6 +126,7 @@ Basically, I don't know how to end this post but there we go. Its how I got un-r
 # TheFeckless (Tutorial on reversing Unreal Engine)
 ~~~
 
+[3]: https://www.unknowncheats.me/forum/other-mmorpg-and-strategy/308687-lost-ark-sdk-information.html
 [2]: {{ site.url }}images/screenshots/Screenshot_2.jpg
 [1]: {{ site.url }}images/screenshots/Screenshot_1.jpg
 [0]: https://lostarkdatabase.com/kr-lost-ark-season-2-updates-expedition-territory-island-housing-system-genderlock-removal-new-classes/
