@@ -15,7 +15,7 @@ tags:
 
 Yay, its mine first post and its first time I'm reversing or even hacking at Unreal Engine.
 
-Today, I’ll talk little bit about how game reversing leaded me to new upcoming recently announced classes. (Notice: They only announced, so there no actually information about them).
+Today, I’ll talk little bit about how game reversing leaded me to [new upcoming recently announced classes \[0\]][0]. (Notice: They only announced, so there no actually information about them).
 
 Right now I’m working at Bot for Lost Ark. Main reason is get advantage in PvP and don’t waste time on routine job like getting resources for healing potions.
 
@@ -122,3 +122,4 @@ Basically, I don't know how to end this post but there we go. Its how I got un-r
 
 [2]: {{ site.url }}images/screenshots/Screenshot_2.jpg
 [1]: {{ site.url }}images/screenshots/Screenshot_1.jpg
+[0]: https://lostarkdatabase.com/kr-lost-ark-season-2-updates-expedition-territory-island-housing-system-genderlock-removal-new-classes/
