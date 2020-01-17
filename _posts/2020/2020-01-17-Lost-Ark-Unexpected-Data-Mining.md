@@ -116,7 +116,7 @@ I know its nothing "big" but it was cool find something like this.
 
 Well, I don't know how to end this post but there we go. Its how I got un-released data from game engine.
 
-And Thanks for reading!
+Thanks for reading!
 
 ## Credits
 
