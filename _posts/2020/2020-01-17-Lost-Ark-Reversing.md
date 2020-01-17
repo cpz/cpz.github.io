@@ -19,7 +19,7 @@ Bot should go through level and collect all possible to get resources for us (We
 But I've run in to problem. I can't get names of entities on the level. They have names defined by engine, like: "EFSkeletalMeshActor_Number" but it will be Mining resource or Lumbering or Gathering.
 We can't handle gathering resources via bot because can't disguise resources.
 
-Its how they looks in the game ():
+Its how they looks in the game:
 ![Screenshot]({{ site.url }}images/screenshots/Screenshot_4.jpg)
 
 So, I've started to reverse and trying to find their category or something what can help me.
