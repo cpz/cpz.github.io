@@ -115,9 +115,9 @@ Basically, I don't know how to end this post but there we go. Its how I got un-r
 ## Credits
 
 ~~~
-[0]: https://github.com/realrespecter (Korea SDK Dump)
-[1]: KN4CK3R (UnrealEngine SDK Dumper)
-[2]: TheFeckless (Tutorial on reversing Unreal Engine)
+# https://github.com/realrespecter (Korea SDK Dump)
+# KN4CK3R (UnrealEngine SDK Dumper)
+# TheFeckless (Tutorial on reversing Unreal Engine)
 ~~~
 
 [2]: {{ site.url }}images/screenshots/Screenshot_2.jpg
