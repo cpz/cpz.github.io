@@ -2,7 +2,7 @@
   <div class="col-lg-8 col-lg-offset-2">
     <h1 class="">{{ site.title }}</h1>
     <p>
-    <span class="reserved">char</span> szNickname[<span class="number">3</span>] = <span class="string">"{{ site.nick }}"</span>;
+    <span class="reserved">std::string</span> szNickname { <span class="string">"{{ site.nick }}"</span> };
     </p>
     <p>
     std::printf( <a href="https://{{ site.source_code.server }}/{{ site.source_code.nick }}" target="_blank"><span class="string">"https://{{ site.source_code.server }}/<span class="reserved">%s\n</span>"</span></a>, szNickname );
