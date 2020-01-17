@@ -23,7 +23,7 @@ Bot should go through level and collect all possible to get resources for us (We
 
 But I’ve run in to problem. I can’t get names of entities on the level.
 
-They have names defined by engine, like: “EFSkeletalMeshActor_Number” but it can be Mining resource or Lumbering or Gathering.
+They have names defined by engine, like: “EFSkeletalMeshActor_Number” but it can be Mining/Lumbering/Herbalism resource.
 
 We can’t handle gathering resources via bot because can’t distinguish real names of resources.
 
@@ -36,7 +36,7 @@ So, I've started to reverse and trying to find their category or something what 
 
 And found interesting things for upcoming update.
 
-There a data in the game which is responsible for players [class division \[1\]][1] and their sub-class.
+There a data in the game which is responsible for players [class division \[1\]][1] and their sub-classes.
 
 (This enum is deprecated for some reason, [real enum \[2\]][2] is a lot of bigger and contains pre-defined types for future new sub-classes like: PLAYER_CLASS_SPECIALIST600     = 600)
 
