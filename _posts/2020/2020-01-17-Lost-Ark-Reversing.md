@@ -20,7 +20,7 @@ But I've run in to problem. I can't get names of entities on the level. They hav
 We can't handle gathering resources via bot because can't disguise resources.
 
 Its how they looks in the game ():
-![Screenshot]({{ site.url }}screenshots/Screenshot_4.jpg)
+![Screenshot]({{ site.url }}images/screenshots/Screenshot_4.jpg)
 
 So, I've started to reverse and trying to find their category or something what can help me.
 And found interesting things for upcoming update.
