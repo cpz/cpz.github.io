@@ -13,7 +13,4 @@ tags:
     - AAC
 ---
 
-![Screenshot]({{ site.url }}images/posts/cspl.png)
-
-
 Soon...
