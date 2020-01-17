@@ -2,7 +2,7 @@
 layout: content
 ---
 
-# General reversing, coding, game breaking and exploiting.
+# General reversing, coding, game hacking and exploiting.
 
 ### About
 
@@ -15,6 +15,7 @@ Interests:
 * Software Testing
 * System Administration
 * Reverse Engineering
-* Game breaking
+* Security Research
+* Game Hacking
 
 Born in Russia, Vladivostok.
