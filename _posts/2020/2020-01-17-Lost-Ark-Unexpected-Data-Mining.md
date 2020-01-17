@@ -29,6 +29,7 @@ We can’t handle gathering resources via bot because can’t distinguish real n
 
 
 Its how they looks in the game:
+
 ![Screenshot]({{ site.url }}images/screenshots/Screenshot_4.jpg)
 
 So, I've started to reverse and trying to find their category or something what can help me.
