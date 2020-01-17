@@ -1,18 +1,18 @@
 # Site settings
 title: "gjuniioor"
 bye_message: "Thx!"
-baseurl: "/site/"
+baseurl: "/"
 url: "https://cpz.github.io"
-disqus: 0dg
+disqus: 0og
 
 # Header settings
-nick: "gjuniioor"
+nick: "cpz"
 mail:
     domain: "protonmail"
     ext: "ch"
 source_code:
     server: "github.com"
-    nick: "gjuniioor"
+    nick: "cpz"
 blog:
     server: "wordpress.com"
     nick: "gjuniioor"
