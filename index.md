@@ -6,6 +6,15 @@ layout: content
 
 ### About
 
-I'm 24 years old guy which born in Russia, Vladivostok but moved to Moscow and then to Belarus, Minsk. Loving to explore, creating new things.
+Hello,
 
-C++, Reverse Engineering, Software Testing, SysOp.
+I'm Konstantin 'cpz' L.
+
+Interests:
+* Software Developing (C++, C)
+* Software Testing
+* System Administration
+* Reverse Engineering
+* Game breaking
+
+Born in Russia, Vladivostok.
