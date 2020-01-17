@@ -23,7 +23,7 @@ Bot should go through level and collect all possible to get resources for us (We
 
 But I’ve run in to problem. I can’t get names of entities on the level.
 
-They have names defined by engine, like: “EFSkeletalMeshActor_Number” but it can be Mining/Lumbering/Herbalism resource.
+They have names defined by engine, like: “EFSkeletalMeshActor” + ID of entity of this class on current level, so final result for example are "EFSkeletalMeshActor_1" but it can be Mining/Lumbering/Herbalism resource.
 
 We can’t handle gathering resources via bot because can’t distinguish real names of resources.
 
