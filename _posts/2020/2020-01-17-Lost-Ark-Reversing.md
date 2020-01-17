@@ -11,7 +11,7 @@ tags:
     - lostark
 ---
 
-![Screenshot]({{ site.baseurl }}images/screenshots/screenshot_0.png)
+![Screenshot]({{ site.url }}images/screenshots/screenshot_0.png)
 
 Today, I'll talk little bit about how reversing game leaded me to new upcoming recently announced classes (Notice: They only announced, so there no actually information about them).
 Right now I'm working at Bot for Lost Ark. Main reason is get advantage in PvP and don't waste time on routine job like getting resources for healing potions.
@@ -20,7 +20,7 @@ But I've run in to problem. I can't get names of entities on the level. They hav
 We can't handle gathering resources via bot because can't disguise resources.
 
 Its how they looks in the game ():
-![Screenshot]({{ site.baseurl }}screenshots/Screenshot_4.jpg)
+![Screenshot]({{ site.url }}screenshots/Screenshot_4.jpg)
 
 So, I've started to reverse and trying to find their category or something what can help me.
 And found interesting things for upcoming update.
@@ -105,5 +105,5 @@ Basically, I don't know how to end this post but there we go. Its how I got un-r
 [2]: TheFeckless (Tutorial on reversing Unreal Engine)
 ~~~
 
-[0]: {{ site.baseurl }}images/screenshots/Screenshot_2.jpg
-[1]: {{ site.baseurl }}images/screenshots/Screenshot_1.jpg
+[0]: {{ site.url }}images/screenshots/Screenshot_2.jpg
+[1]: {{ site.url }}images/screenshots/Screenshot_1.jpg
