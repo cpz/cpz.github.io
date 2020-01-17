@@ -13,7 +13,7 @@ tags:
 
 ![Screenshot]({{ site.url }}images/screenshots/screenshot_0.png)
 
-Yay, its mine first post and its first time I'm reversing or even hacking at Unreal Engine.
+Yay, its mine first post and its first time I'm reversing or even hacking in Unreal Engine.
 
 Today, I’ll talk little bit about how game reversing leaded me to [new upcoming recently announced classes \[0\]][0]. (Notice: They only announced, so there no actually information about them).
 
