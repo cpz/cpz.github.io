@@ -16,18 +16,27 @@ tags:
 Yay, its mine first post and its first time I'm reversing or even hacking at Unreal Engine.
 
 Today, I’ll talk little bit about how game reversing leaded me to new upcoming recently announced classes (Notice: They only announced, so there no actually information about them).
+
 Right now I’m working at Bot for Lost Ark. Main reason is get advantage in PvP and don’t waste time on routine job like getting resources for healing potions.
+
 Bot should go through level and collect all possible to get resources for us (We define it via menu which resources are needed for us).
+
 But I’ve run in to problem. I can’t get names of entities on the level.
+
 They have names defined by engine, like: “EFSkeletalMeshActor_Number” but it can be Mining resource or Lumbering or Gathering.
+
 We can’t handle gathering resources via bot because can’t distinguish real names of resources.
+
 
 Its how they looks in the game:
 ![Screenshot]({{ site.url }}images/screenshots/Screenshot_4.jpg)
 
 So, I've started to reverse and trying to find their category or something what can help me.
+
 And found interesting things for upcoming update.
+
 There a data in the game which is responsible for distinguish players [class division \[1\]][1] and their sub-class.
+
 (This enum is deprecated for some reason, [real enum \[2\]][2] is a lot of bigger and contains pre-defined types for future new sub-classes like: PLAYER_CLASS_SPECIALIST600     = 600)
 
 ~~~
@@ -67,7 +76,9 @@ enum class EPlayerClassDeprecated : uint8_t
 ~~~
 
 If you played at least once in game then you know that this class contains more than we got in the game.
+
 So, what actually it shows to us?
+
 That there un-released class Specialist which contains these sub-classes:
 
 ~~~
