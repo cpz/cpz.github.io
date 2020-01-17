@@ -89,7 +89,7 @@ PLAYER_CLASS_MUSICIAN          = 603,
 PLAYER_CLASS_ALCHEMIST         = 604,
 ~~~
 
-Also, I'm reversing CIS Region version game, so it doesn't have Holy-Knight new warrior sub-class or new class assassins but engine contains data for them because they are sure going to be added in future.
+Also, I'm reversing CIS Region version game (Its approx 1 year behind of Korea Region version), so it doesn't have Holy-Knight new warrior sub-class or new class assassins but engine contains data for them because they are sure going to be added in future.
 
 So, what else we can see?
 
