@@ -8,8 +8,8 @@ disqus: 0og
 # Header settings
 nick: "cpz"
 mail:
-    domain: "protonmail"
-    ext: "ch"
+    domain: "reversing"
+    ext: "ac"
 source_code:
     server: "github.com"
     nick: "cpz"
