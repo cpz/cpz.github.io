@@ -1,7 +1,7 @@
 ---
 layout: post
 title:	"CSPL.ru AAC Reversal Information"
-date:	2020-01-01 00:00:00
+date:	2020-01-31 00:00:00
 categories:
     - blog
 tags:
@@ -13,6 +13,8 @@ tags:
     - AAC
 ---
 
-![Screenshot]({{ site.url }}images/screenshots/Screenshot_5.jpg)
+![Screenshot]({{ site.url }}images/posts/cspl.png)
+
+
 
 To be continue...
