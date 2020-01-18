@@ -65,7 +65,7 @@ Non-finished yet.
 
 4: Screenshot Cleaner - Proof of Concept
 
-Non-finished yetv.
+Non-finished yet.
 
 5: HWID Information.
 
