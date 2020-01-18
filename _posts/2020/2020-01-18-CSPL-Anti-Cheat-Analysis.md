@@ -1,6 +1,6 @@
 ---
 layout: post
-title:	"CSPL.ru AAC Reversal Information"
+title:	"CSPL.ru Anti-Cheat Analysis"
 date:	2020-01-18 04:59:00
 categories:
     - blog
