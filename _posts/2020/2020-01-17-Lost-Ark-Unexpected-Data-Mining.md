@@ -16,7 +16,7 @@ Yay its my first post and this is my first time reversing or hacking in Unreal E
 
 Today, I’ll talk little bit about how game reversing lead me to [new upcoming recently announced classes \[0\]][0]. (Notice: They only just announced them, so there is no actual information about them).
 
-ight now I’m working on a bot for Lost Ark. The main reason is to get an advantage in PvP and not waste any time on routine jobs like getting resources for healing potions.
+Right now I’m working on a bot for Lost Ark. The main reason is to get an advantage in PvP and not waste any time on routine jobs like getting resources for healing potions.
 
 The bot should go through the level and collect all the possible obtainable resources. (We define it via a menu, which resources are needed)
 
