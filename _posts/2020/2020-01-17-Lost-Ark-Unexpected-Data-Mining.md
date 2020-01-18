@@ -115,7 +115,7 @@ PLAYER_CLASS_REAPER            = 404,
 
 I know its nothing “big” but it was interesting to find something like this.
 
-If you want to learn more about the game engine for finding anything else interesting then here is a link [4] to a dump of the Game Engine.
+If you want to learn more about the game engine for finding anything else interesting then here is a [link\[4\] [4] to a dump of the Game Engine.
 
 Well, I don’t know how to end this post but here is my method for obtaining the un-released data from the game engine.
 
