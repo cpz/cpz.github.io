@@ -18,7 +18,7 @@ Hello,
 Today we'll talk about CSPL.ru Anti-Cheat named as "AAC" which means "Apofig Anti-Cheat". Apofig is previous name of this Russian League.
 
 AAC is mostly user-mode anti-cheat but they have kernel mode module too.
-Previously, when AAC was only user-mode Anti-Cheat in 2012 or around this, they managed to detect Organner via going through all files of player system and looking for 'config.cfg' and launcher of Organner.
+Previously, when AAC was only user-mode Anti-Cheat in 2012 or around this, they managed to detect Organner via going through all files of player system and looking for 'config.cfg' and launcher of Organner. Similiar to what Valve did to detect Organner. They was looking for USN Journal and searching for config.cfg and was reading first 2 lines which contained something likee 'Organner.pl Imunnity Duo Config File' and locating of config file to find launcher of organner near of config.
 
 What they do?:
 * Collect running processes
