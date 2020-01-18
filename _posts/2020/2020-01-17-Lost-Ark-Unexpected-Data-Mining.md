@@ -75,7 +75,7 @@ enum class EPlayerClassDeprecated : uint8_t
 };
 ~~~
 
-If you've played the game at least once then you know that this class contains more than we get in-game.
+If you've played the game at least once then you know that this enum contains more than we get in-game.
 
 So, what does it actually show us?
 
