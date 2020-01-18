@@ -51,24 +51,24 @@ AAC.exe does loading driver `usbhubmswg.sys` which installs Callbacks.
 
 AAC.exe does injection of `aacdx.dll` and `d3dx10_43.dll` in to game.
 
-Non-finished post.
+Non-finished yet.
 
 2: usbhubmswg.sys installing CreateProcess, LoadImage, CreateThread, ObProccess(PreCall), ObProcess(PostCall), ObThread(PreCall), ObThread(PostCall) to protect game from injection and etc.
 
 Driver is protected via VMProtect.
 
-Non-finished post.
+Non-finished yet.
 
 3: aacdx.dll does VEH Hook on something?
 
-Non-finished post.
+Non-finished yet.
 
 4: Screenshot Cleaner - Proof of Concept
 
-Non-finished post.
+Non-finished yetv.
 
 5: HWID Information.
 
-Non-finished post.
+Non-finished yet.
 
 [0]: http://www.cyberforum.ru/beta-testing/thread1207634.html
