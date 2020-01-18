@@ -26,7 +26,7 @@ What they do?:
 * Collet names of windows
 * Enumerating of running drivers
 * Walking through prefetch and USN Journal
-* Walking through system and hashing them
+* Walking through system and hashing files
 * Screenshots via GDI for Desktop screenshots and DirectX for In-Game screenshots.
 * Protect process via Kernel Callbacks
 
