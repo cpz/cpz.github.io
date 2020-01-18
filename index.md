@@ -12,10 +12,11 @@ I'm Konstantin 'cpz' L.
 
 Interests:
 * Software Developing (C++, C)
-* Software Testing
 * System Administration
 * Reverse Engineering
 * Security Research
+* Software Testing
 * Game Hacking
+* Data Mining
 
 Born in Russia, Vladivostok.
