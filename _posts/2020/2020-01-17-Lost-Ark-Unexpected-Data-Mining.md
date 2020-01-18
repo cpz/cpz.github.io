@@ -89,7 +89,7 @@ PLAYER_CLASS_MUSICIAN          = 603,
 PLAYER_CLASS_ALCHEMIST         = 604,
 ~~~
 
-Also, I'm reversing CIS Region version game (Its approx. 1 year behind of Korea Region version), so it doesn't have Holy-Knight new warrior sub-class or new class assassins but engine contains data for them because they are sure going to be added in future.
+Also, I'm reversing CIS Region version game (Its approx. 1 year behind of Korea Region version), so it doesn't have new warrior sub-class Holy-Knight or new class assassins but engine contains data for them because they are sure going to be added in future.
 
 So, what else we can see?
 
@@ -110,11 +110,11 @@ PLAYER_CLASS_DEMONIC           = 403,
 PLAYER_CLASS_REAPER            = 404,
 ~~~
 
-[Original post \[3\]][3] were made by me on UC but I decided to post it there too with describing how I find these things.
+[Original post \[3\]][3] were made by me on UC but I decided to post it there too with describing how I found these things.
 
 I know its nothing "big" but it was cool find something like this.
 
-If you want to lurk more in game engine for finding anything else interesting then there a [link \[4\]][4].
+If you want to lurk more in game engine for finding anything else interesting then there a [link \[4\]][4] to dump of Game Engine.
 
 Well, I don't know how to end this post but there we go. Its how I got un-released data from game engine.
 
