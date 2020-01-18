@@ -7,7 +7,6 @@ categories:
 tags:
     - reversing
     - windows
-    - screenshot
     - CSPL
     - anticheat
 ---
