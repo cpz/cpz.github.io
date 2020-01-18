@@ -12,32 +12,32 @@ tags:
 
 ![Screenshot]({{ site.url }}images/screenshots/screenshot_0.png)
 
-Yay, its mine first post and its first time I'm reversing or even hacking in Unreal Engine.
+Yay its my first post and this is my first time reversing or hacking in Unreal Engine.
 
-Today, I’ll talk little bit about how game reversing leaded me to [new upcoming recently announced classes \[0\]][0]. (Notice: They only announced, so there no actually information about them).
+Today, I’ll talk little bit about how game reversing lead me to [new upcoming recently announced classes \[0\]][0]. (Notice: They only just announced them, so there is no actual information about them).
 
-Right now I’m working at Bot for Lost Ark. Main reason is get advantage in PvP and don’t waste time on routine job like getting resources for healing potions.
+ight now I’m working on a bot for Lost Ark. The main reason is to get an advantage in PvP and not waste any time on routine jobs like getting resources for healing potions.
 
-Bot should go through level and collect all possible to get resources for us (We define it via menu which resources are needed for us).
+The bot should go through the level and collect all the possible obtainable resources. (We define it via a menu, which resources are needed)
 
-But I’ve run in to problem. I can’t get names of entities on the level.
+But I’ve run into a problem. I can’t get the names of the entities on the level.
 
-They have names defined by engine, like: “EFSkeletalMeshActor” + ID of entity of this class on current level, so final result for example are "EFSkeletalMeshActor_1" but it can be Mining/Lumbering/Herbalism resource.
+They have names defined by the engine, like: “EFSkeletalMeshActor” + ID of the entity of the class on the current level. So, the final result is; for example are “EFSkeletalMeshActor_1” but it could be Mining/Lumbering/Herbalism resources.
 
-We can’t handle gathering resources via bot because can’t distinguish real names of resources.
+We can’t handle gathering resources with the bot because it can’t distinguish the real names of resources.
 
 
-Its how they looks in the game:
+This is how they look in game:
 
 ![Screenshot]({{ site.url }}images/screenshots/Screenshot_4.jpg)
 
-So, I've started to reverse and trying to find their category or something what can help me.
+So, I’ve started to reverse it and trying to find their category or something that can help me.
 
-And found interesting things for upcoming update.
+I've found some interesting things for the upcoming update.
 
-There a data in the game which is responsible for players [class division \[1\]][1] and their sub-classes.
+There is data in the game which is responsible for players [class division \[1\]][1] and their sub-classes.
 
-(This enum is deprecated for some reason, [real enum \[2\]][2] is a lot of bigger and contains pre-defined types for future new sub-classes like: PLAYER_CLASS_SPECIALIST600     = 600)
+(This enum is deprecated for some reason, [real enum \[2\]][2] is much bigger and contains pre-defined types for future new sub-classes like: PLAYER_CLASS_SPECIALIST600 = 600)
 
 ~~~
 // Enum EFGame.EFConst.PlayerClassDeprecated
@@ -75,11 +75,11 @@ enum class EPlayerClassDeprecated : uint8_t
 };
 ~~~
 
-If you played at least once in game then you know that this class contains more than we got in the game.
+If you've played the game at least once then you know that this class contains more than we get in-game.
 
-So, what actually it shows to us?
+So, what does it actually show us?
 
-That there un-released class Specialist which contains these sub-classes:
+That there are un-released classes like Specialist which contain these sub-classes:
 
 ~~~
 PLAYER_CLASS_SPECIALIST        = 601,
@@ -88,11 +88,12 @@ PLAYER_CLASS_MUSICIAN          = 603,
 PLAYER_CLASS_ALCHEMIST         = 604,
 ~~~
 
-Also, I'm reversing CIS Region version game (Its approx. 1 year behind of Korea Region version), so it doesn't have new warrior sub-class Holy-Knight or new class assassins but engine contains data for them because they are sure going to be added in future.
+Also, I’m reversing the CIS region's version of the game (Its approx. 1 year behind the Korean region's game version), so it doesn’t have new warrior sub-class Holy-Knight or new class called Assassin but the engine contains data for them because they are surely going to be added in the future.
 
 So, what else we can see?
 
-Hunter going to get new sub-class named as Scouter.
+The Hunter class is going to get a new sub-class named 'Scouter'.
+
 ~~~
 PLAYER_CLASS_HUNTER            = 501,
 PLAYER_CLASS_HAWK_EYE          = 502,
@@ -101,7 +102,8 @@ PLAYER_CLASS_BLASTER           = 504,
 PLAYER_CLASS_SCOUTER           = 505,
 ~~~
 
-Assassin class has "Delain" name in engine and does contain un-released sub-class named as Reaper.
+The Assassin class is named “Delain” in the engine and also contains an un-released sub-class named 'Reaper'.
+
 ~~~
 PLAYER_CLASS_DELAIN            = 401,
 PLAYER_CLASS_BLADE             = 402,
@@ -109,13 +111,13 @@ PLAYER_CLASS_DEMONIC           = 403,
 PLAYER_CLASS_REAPER            = 404,
 ~~~
 
-[Original post \[3\]][3] were made by me on UC but I decided to post it there too with describing how I found these things.
+[Original post \[3\]][3] was by me on UC but I decided to post it here too, also describing how I found these things.
 
-I know its nothing "big" but it was cool find something like this.
+I know its nothing “big” but it was interesting to find something like this.
 
-If you want to lurk more in game engine for finding anything else interesting then there a [link \[4\]][4] to dump of Game Engine.
+If you want to learn more about the game engine for finding anything else interesting then here is a link [4] to a dump of the Game Engine.
 
-Well, I don't know how to end this post but there we go. Its how I got un-released data from game engine.
+Well, I don’t know how to end this post but here is my method for obtaining the un-released data from the game engine.
 
 Thanks for reading!
 
