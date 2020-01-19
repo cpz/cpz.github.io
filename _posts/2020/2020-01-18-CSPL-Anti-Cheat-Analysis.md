@@ -49,7 +49,7 @@ AAC.exe does loading driver `usbhubmswg.sys` which installs Callbacks.
 
 AAC.exe does injection of `aacdx.dll` and `d3dx10_43.dll` in to game.
 
-AAC.exe collecting running processes in system, there a example structure:
+AAC.exe collecting running processes in system, there a example structure of single process:
 ~~~
 struct {
   std::string windows_caption;
@@ -60,7 +60,7 @@ struct {
   std::string caption;
   dlls_stuct dlls;
   DWORD hash2;
-} processes_struct;
+} process_struct;
 ~~~
 
 AAC.exe collecting running dlls in the process, there a example structure:
