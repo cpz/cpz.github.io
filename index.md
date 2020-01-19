@@ -22,6 +22,6 @@ Interests:
 
 I am currently involved with:
 * NDA Project related to Anti-Cheat scene
-* NDA Project related to Game Scene, especially e-Sport Leagues
+* NDA Project related to Gaming Scene, especially e-Sport Leagues
 
 Born in Russia, Vladivostok.
