@@ -4,7 +4,7 @@ layout: content
 
 # General reversing, coding, game hacking and exploiting.
 
-### About
+### About me
 
 Hello!
 
