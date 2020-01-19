@@ -6,7 +6,7 @@ layout: content
 
 ### About
 
-Hello,
+Hello!
 
 I'm Konstantin 'cpz' L.
 
