@@ -49,7 +49,27 @@ AAC.exe does loading driver `usbhubmswg.sys` which installs Callbacks.
 
 AAC.exe does injection of `aacdx.dll` and `d3dx10_43.dll` in to game.
 
-Non-finished yet.
+AAC.exe collecting running processes in system, there a example structure:
+~~~
+struct {
+  std::string windows_caption;
+  std::string command_line;
+  std::string local_path;
+  DWORD hash;
+  std::uint8_t file_size;
+  std::string caption;
+  dlls_stuct dlls;
+} processes_struct;
+~~~
+
+AAC.exe collecting running dlls in the process, there a example structure:
+~~~
+struct {
+  std::string local_path;
+  DWORD hash;
+  std::string caption;
+} dlls_struct;
+~~~
 
 2: usbhubmswg.sys installing CreateProcess, LoadImage, CreateThread, ObProccess(PreCall), ObProcess(PostCall), ObThread(PreCall), ObThread(PostCall) to protect game from injection and etc.
 
@@ -67,6 +87,20 @@ Non-finished yet.
 
 5: HWID Information.
 
-Non-finished yet.
+There a stucture which contains current user HWID Data (Notice: Its not complete reversed yet.)
+~~~
+struct {
+  std::string UserName;
+  std::uint8_t WinVer;
+  std::uint8_t OSbit;
+  std::uint8_t WinVer;
+  std::string VideoCard;
+  std::string DiskVolInfoAAC; /// ???
+  std::uint8_t HDD_Type;
+  std::string HDD_Name;
+  std::uint8_t HDD_RevNo; /// Revision Number
+  std::uint8_t HDD_SN;   /// Serial Number
+} HWID_Data;
+~~~
 
 [0]: http://www.cyberforum.ru/beta-testing/thread1207634.html
