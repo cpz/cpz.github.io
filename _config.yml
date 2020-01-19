@@ -13,10 +13,9 @@ mail:
 source_code:
     server: "github.com"
     nick: "cpz"
-blog:
-    server: ""
-    nick: ""
-fingerprint_key: ""
+twitter:
+    server: "twitter.com"
+    nick: "dg_cpz"
 
 # Build settings
 markdown: kramdown
