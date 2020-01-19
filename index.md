@@ -20,9 +20,8 @@ Interests:
 * Data Mining
 
 
-
 I am currently involved with:
-* NDA Project related to Anti-cheat
-* NDA Project related to Game Scene, especially e-Sport Leagues.
+* NDA Project related to Anti-Cheat scene
+* NDA Project related to Game Scene, especially e-Sport Leagues
 
 Born in Russia, Vladivostok.
