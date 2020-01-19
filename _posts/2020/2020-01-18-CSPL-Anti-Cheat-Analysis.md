@@ -104,4 +104,11 @@ struct {
 } HWID_Data;
 ~~~
 
+## Credits
+
+~~~
+# https://github.com/fwx
+# https://github.com/getjump
+~~~
+
 [0]: http://www.cyberforum.ru/beta-testing/thread1207634.html
