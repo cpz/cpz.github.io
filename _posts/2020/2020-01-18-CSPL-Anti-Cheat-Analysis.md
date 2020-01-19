@@ -28,7 +28,7 @@ What they do?:
 * Screenshots via GDI for Desktop screenshots and DirectX for In-Game screenshots.
 * Protect process via Kernel Callbacks
 
-Anti-Cheat entities:
+The four main entities of Anti-Cheat are:
 
 1: AAC.exe is launcher which connects with CSPL.ru `aac.cspl.ru:8008/login` (for some reason, they creating log about connection with site. Can be found there C:\senderr.txt)
 
