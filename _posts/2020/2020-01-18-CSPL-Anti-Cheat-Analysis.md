@@ -96,7 +96,7 @@ struct {
   std::uint8_t OSbit;
   std::uint8_t WinVer;
   std::string VideoCard;
-  std::string DiskVolInfoAAC; /// ???
+  std::string DiskVolInfo; /// Disk Volume Info
   std::uint8_t HDD_Type;
   std::string HDD_Name;
   std::uint8_t HDD_RevNo; /// Revision Number
