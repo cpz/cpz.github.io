@@ -30,7 +30,7 @@ What they do?:
 
 Anti-Cheat entities:
 
-1: AAC.exe is launcher which connects with CSPL.ru (for some reason, they creating log about connection with site. Can be found there C:\senderr.txt)
+1: AAC.exe is launcher which connects with CSPL.ru `aac.cspl.ru:8008/login` (for some reason, they creating log about connection with site. Can be found there C:\senderr.txt)
 
 Example of log:
 
