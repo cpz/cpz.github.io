@@ -107,10 +107,8 @@ struct {
 ## Credits
 
 ~~~
-[1]: https://github.com/fwx
-[2]: https://github.com/getjump
+# https://github.com/fwx
+# https://github.com/getjump
 ~~~
 
-[2]: https://github.com/getjump
-[1]: https://github.com/fwx
 [0]: http://www.cyberforum.ru/beta-testing/thread1207634.html
