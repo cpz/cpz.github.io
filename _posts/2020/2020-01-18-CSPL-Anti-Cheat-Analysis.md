@@ -59,6 +59,7 @@ struct {
   std::uint8_t file_size;
   std::string caption;
   dlls_stuct dlls;
+  DWORD hash2;
 } processes_struct;
 ~~~
 
