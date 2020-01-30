@@ -25,6 +25,7 @@ I am currently involved with:
 * NDA Project related to Gaming Scene, especially e-Sport Leagues
 
 Projects:
-* [Lost Ark SDK Documentation](https://cpz.github.io/Lost-Ark-SDK/) 
+* [Lost Ark SDK Documentation](https://cpz.github.io/Lost-Ark-SDK/)
+
 
 Born in Russia, Vladivostok.
