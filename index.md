@@ -27,6 +27,7 @@ I am currently involved with:
 Projects:
 * [Lost Ark SDK Documentation](https://cpz.github.io/Lost-Ark-SDK/)
 * [Keep It Simple Stupid HTTP](https://github.com/cpz/kisshttp)
+* [EfiLoader - Manual Map driver via UEFI at boot time](https://github.com/cpz/EfiLoader)
 
 
 Contributions:
